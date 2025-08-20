@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
-    return "Hello World! My application is running via Devtron CD!"
+    return "<strong>Hello World! Versi 2.0 - Diperbarui secara otomatis oleh Devtron!</strong>" 
 
 if __name__ == '__main__':
     # Listen on all network interfaces, so it's accessible within the cluster
